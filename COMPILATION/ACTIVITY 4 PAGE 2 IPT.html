@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 125%;
+  margin: 0;
+  font-family: cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("babe.jpg");
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  height: 115%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+  color: black;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 80%;
+  padding: 5px;
+  text-align: center;
+}
+
+.button {
+        display: inline-flexbox;
+        height: 70px;
+        width: 70px;
+        padding: 0px;
+        border-radius: 5px;
+        overflow: hidden;
+        align-content: center;
+        margin: 3%;
+        border-color: transparent;
+        border-radius: 100px;
+    }
+h1 {
+        border: 5px black;
+        outline-style: outset;
+        outline-color: rgb(64,64,64);
+        background-color: rgb(255,182,193);
+        opacity: 100%;
+        border-radius: 50px;
+}
+nav {
+    position: relative; 
+    padding-left: 34px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10%;
+    border: 20px;
+    border-color: rgb(32,32,32);
+    opacity: 100%;
+}
+h2 {
+    opacity: 100%;
+    margin-top: 500;   
+}
+td {
+    border-style: solid;
+    border-width:1px;
+    background-color: violet;
+    opacity: 100%;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 1%;
+    cursor: context-menu;
+    margin: 25%;
+    bottom: 150px;
+    border-bottom: 300;
+    border-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button:hover{
+    background-color:rgb(100,149,237); transform: scale(1.2);
+    }
+td:hover {
+    background-color:rgb(100,149,237); transform: scale(1.1   );
+    border-color: rgb(186,85,211); transform: scale(1.1);
+}
+h1:hover{
+    background-color: rgb(186,85,211); transform: scale(.9);
+}
+td {
+    bottom: 150px;
+}
+#b2:hover{
+        background-color: rgb(255,160,122); transform: scale(1.2);
+}
+#b1:hover{
+        background-color:rgb(255,160,122); transform: scale(1.2);
+}
+#p1:hover{
+    background-color: rgb(186,85,211); transform: scale(1);}
+#p1{
+    background-color: wheat;
+    background-size: 20pt;
+    padding: 10px;
+    position: relative;
+    cursor: context-menu;
+    width: 800pt;
+    align-content: center;
+    bottom: 30px;
+    border-radius: 10px;
+}
+#p2:hover{
+    background-color: rgb(186,85,211); transform: scale(1);}
+#p2{
+    padding: 2px;
+    position: relative;
+    cursor: context-menu;
+    width: 630pt;
+    align-content: center;
+    bottom: 30px;
+    border-radius: 10px;    
+}	
+
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+<div class="bg-text">
+
+ <h1 style= "border: 2px solid rgb(32,32,32);"><marquee>USER'S INFORMATION</marquee></h1>
+    <hr></hr><br>
+    <h2 id="p1">CLARIZA B. PASCUAL</h2><br>
+    <h3 id="p1">I'd rather die than live without passion.</h3><br>
+            <img src="clariza.jpg" alt="Home" width="250" height="300">
+</center>
+</body>
+<body>
+<center>
+    <table style= font-family:cursive;>
+
+    <tr>
+        <td>PLACE OF BIRTH:</td>
+        <td>QUEZON CITY</td>
+    </tr>
+    <tr>
+       <td>BIRTHDATE:</td>
+       <td>JULY 17, 20O1</td>
+    </tr>
+    <tr>
+       <td>ZODIAC:</td>
+       <td>CANCER</td>
+    <tr>
+    <tr>
+       <td>AGE:</td>
+       <td>21</td>
+    <tr>
+        <td>CIVIL STATUS:</td>
+        <td>SINGLE</td>
+    </tr>
+    <tr>
+        <td>RELIGION:</td>
+        <td>ROMAN CATHOLIC</td>
+    </tr>
+    <tr>
+        <td>CITIZENSHIP:</td>
+        <td>FILIPINO</td>
+    </tr>
+    <tr>
+        <td>HEIGHT:</td>
+        <td>5'1</td>
+    </tr>
+     <tr>
+       <td>HOBBIES:</td>
+       <td>BINGE WATCHING</td>
+    <tr>
+     <tr>
+       <td>LOVES TO:</td>
+       <td>DOING ARTS AND CRAFTS</td>
+    <tr>
+</table>
+</center>
+<center>
+<a href="ACTIVITY 4 PAGE 1 IPT.html">
+    <button id="b1" type="button" class="button">
+        <span>
+            <img src="https://www.svgrepo.com/show/271727/monitor-favorite.svg" alt="Favorites" width="65" height="65">
+        </span>
+    </button>
+</a>
+<a href="ACTIVITY 4 PAGE 3 IPT.html">
+    <button id="b2" type="button" class="button">
+        <span>
+            <img src="https://www.svgrepo.com/show/282371/glamour-home.svg" alt="Home" width="67" height="67">
+        </span>
+    </button>
+</a>
+
+</center>
+</body>
+</html>
